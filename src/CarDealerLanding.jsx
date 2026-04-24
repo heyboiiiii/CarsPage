@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "./assets/LOGO_Polcars.jpg";
+import logo from "./assets/LOGO_AdrianFilosa.jpg";
 import instagramIcon from "./assets/icons8-instagram-windows-11-color-32.png";
 import tiktokIcon from "./assets/icons8-tiktok-ios-17-filled-32.png";
 import facebookIcon from "./assets/icons8-facebook-32.png";
@@ -12,15 +12,15 @@ export default function CarDealerLanding() {
   
   /* change */
 
-  const whatsappLink = "https://wa.me/5491160729203";
-const igLink = ""; // no claro
-const facebookLink = "http://www.facebook.com/polcarsautomotores";
-const tiktokLink = "";
-const youtubeLink = "";
+  const whatsappLink = "https://wa.me/5491160623791";
+  const igLink = "https://www.instagram.com/"; // no encontrado
+  const facebookLink = "https://www.facebook.com/profile.php?id=100087230593968";
+  const tiktokLink = "";
+  const youtubeLink = "";
 
-const concs_phone = "+54 9 11 6072-9203";
-const concs_name = "Polcars Automotores";
-const concs_ubication = "Urquiza 410, Quilmes";
+  const concs_phone = "+54 11 6062-3791";
+  const concs_name = "Automotores Adrián Filosa";
+  const concs_ubication = "Av. 12 de Octubre 972, Quilmes";
 
   /* change */
 
