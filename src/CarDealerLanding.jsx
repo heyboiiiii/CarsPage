@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-import logo from "./assets/LOGO.jpg";
-
+import logo from "./assets/LOGO_AdrianFilosa.jpg";
 import instagramIcon from "./assets/icons8-instagram-windows-11-color-32.png";
 import tiktokIcon from "./assets/icons8-tiktok-ios-17-filled-32.png";
 import facebookIcon from "./assets/icons8-facebook-32.png";
@@ -13,15 +12,15 @@ export default function CarDealerLanding() {
   
   /* change */
 
-  const whatsappLink = "https://wa.me/5491144094531";
-  const igLink = "https://www.instagram.com/";
-  const facebookLink = "https://www.facebook.com/";
-  const tiktokLink = "https://www.tiktok.com/";
-  const youtubeLink = "https://www.youtube.com/";
+  const whatsappLink = "https://wa.me/5491160623791";
+  const igLink = "https://www.instagram.com/"; // no encontrado
+  const facebookLink = "https://www.facebook.com/profile.php?id=100087230593968";
+  const tiktokLink = "";
+  const youtubeLink = "";
 
-  const concs_phone = "+54 9 11 4409-4531";
-  const concs_name = "GOD automotores";
-  const concs_ubication = "Av. 12 de Octubre 2645, Quilmes";
+  const concs_phone = "+54 11 6062-3791";
+  const concs_name = "Automotores Adrián Filosa";
+  const concs_ubication = "Felipe Amoedo 746, Quilmes";
 
   /* change */
 
@@ -381,22 +380,22 @@ export default function CarDealerLanding() {
       {/* Hero */}
       <section id ="begin" className="text-center py-20 px-6">
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 fade-slide">
           ENCUENTRA EL AUTO <br /> DE TUS SUEÑOS
         </h1>
 
-        <p className="text-gray-600 mb-12">
+        <p className="text-gray-600 mb-12 fade-slide">
           Explora nuestro inventario de vehículos de alta calidad.
         </p>
 
         <a href="#inventory">
-          <button className="bg-primaryDark text-white px-6 py-3 rounded-xl shadow hover:bg-black transition">
+          <button className="bg-gray-900 text-white px-6 py-3 rounded-xl shadow hover:bg-black transition fade-slide">
           Ver Inventario
           </button>
         </a>
 
         <div className="flex justify-center">
-          <div className="border-t border-gray-300 mt-20 w-96"></div>
+          <div className="border-t border-gray-300 mt-20 w-96 smooth-expand-center"></div>
         </div>
         
       </section>
@@ -427,7 +426,7 @@ export default function CarDealerLanding() {
       <section id="us" className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-4 text-[primaryDark]">
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">
               Nosotros
             </h2>
             <p className="text-gray-600 mb-6">
@@ -446,7 +445,7 @@ export default function CarDealerLanding() {
               ⚠️Evaluamos tu Usado para Permuta o Consignación via online.
             </p>
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-              <button className="bg-primaryDark text-white px-6 py-3 rounded-xl">
+              <button className="bg-gray-900 text-white px-6 py-3 rounded-xl shadow hover:bg-black transition">
                 Contáctanos
               </button>
             </a>
@@ -477,25 +476,21 @@ export default function CarDealerLanding() {
               <div className="flex justify-center gap-6 align-items-center">
                 <div>
                   <a href={igLink} target="_blank" rel="noopener noreferrer">
-                    <img src={instagramIcon} alt="Instagram" className="w-22 h-22" />
+                    <img src={instagramIcon} alt="Instagram" className="w-12 h-12" />
                   </a>
                 </div>
                 
                 <div>
                   <a href={facebookLink} target="_blank" rel="noopener noreferrer">
-                    <img src={facebookIcon} alt="Facebook" className="w-22 h-22" />
+                    <img src={facebookIcon} alt="Facebook" className="w-12 h-12" />
                   </a>
                 </div>
-
-                <div>
-                  <a href={youtubeLink} target="_blank" rel="noopener noreferrer">
-                    <img src={youtubeIcon} alt="YouTube" className="w-22 h-22" />
-                  </a>
-                </div>
+    
+                
 
                 <div>
                   <a href={tiktokLink} target="_blank" rel="noopener noreferrer">
-                    <img src={tiktokIcon} alt="TikTok" className="w-22 h-22" />
+                    <img src={tiktokIcon} alt="TikTok" className="w-11 h-11" />
                   </a>
                 </div>
                 
@@ -533,7 +528,7 @@ function InventoryButton({cars,displayInventory,showInventory,hideInventory}){
       if(cars.length > 6){
         return(
         <div className="text-center mt-10">
-          <button className="bg-primaryDark text-white px-6 py-3 rounded-xl shadow hover:bg-black transition" onClick={showInventory}>
+          <button className="bg-gray-900 text-white px-6 py-3 rounded-xl shadow hover:bg-black transition" onClick={showInventory}>
             Ver Más
           </button>
         </div>
