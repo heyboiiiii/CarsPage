@@ -20,7 +20,7 @@ export default function CarDealerLanding() {
 
   const concs_phone = "+54 11 6062-3791";
   const concs_name = "Automotores Adrián Filosa";
-  const concs_ubication = "Felipe Amoedo 746, Quilmes";
+  const concs_ubication = "Av. 12 de Octubre 972, Quilmes";
 
   /* change */
 
