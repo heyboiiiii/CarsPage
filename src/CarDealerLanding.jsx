@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "./assets/LOGO_AdrianFilosa.jpg";
+import logo from "./assets/Creck.jpg";
 import instagramIcon from "./assets/icons8-instagram-windows-11-color-32.png";
 import tiktokIcon from "./assets/icons8-tiktok-ios-17-filled-32.png";
 import facebookIcon from "./assets/icons8-facebook-32.png";
@@ -12,15 +12,15 @@ export default function CarDealerLanding() {
   
   /* change */
 
-  const whatsappLink = "https://wa.me/5491160623791";
+  const whatsappLink = "https://wa.me/";
   const igLink = "https://www.instagram.com/"; // no encontrado
-  const facebookLink = "https://www.facebook.com/profile.php?id=100087230593968";
+  const facebookLink = "https://www.facebook.com/";
   const tiktokLink = "";
   const youtubeLink = "";
 
-  const concs_phone = "+54 11 6062-3791";
-  const concs_name = "Automotores Adrián Filosa";
-  const concs_ubication = "Av. 12 de Octubre 972, Quilmes";
+  const concs_phone = "+54 11 0000-0000";
+  const concs_name = "Creck Automoviles";
+  const concs_ubication = "Av. Vicente López 372 B, Quilmes";
 
   /* change */
 
