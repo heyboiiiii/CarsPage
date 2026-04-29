@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "./assets/Creck.jpg";
+import logo from "./assets/LOGO_Sprint.jpg";
 import instagramIcon from "./assets/icons8-instagram-windows-11-color-32.png";
 import tiktokIcon from "./assets/icons8-tiktok-ios-17-filled-32.png";
 import facebookIcon from "./assets/icons8-facebook-32.png";
@@ -19,8 +19,8 @@ export default function CarDealerLanding() {
   const youtubeLink = "";
 
   const concs_phone = "+54 11 0000-0000";
-  const concs_name = "Creck Automoviles";
-  const concs_ubication = "Av. Vicente López 372 B, Quilmes";
+  const concs_name = "Sprint Automotores";
+  const concs_ubication = "Av. La Plata 1844 Quilmes";
 
   /* change */
 
