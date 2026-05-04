@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "./assets/LOGO_Sprint.jpg";
+import logo from "./assets/LOGO_puerto_madero.webp";
 import instagramIcon from "./assets/icons8-instagram-windows-11-color-32.png";
 import tiktokIcon from "./assets/icons8-tiktok-ios-17-filled-32.png";
 import facebookIcon from "./assets/icons8-facebook-32.png";
@@ -19,8 +19,8 @@ export default function CarDealerLanding() {
   const youtubeLink = "";
 
   const concs_phone = "+54 11 0000-0000";
-  const concs_name = "Sprint Automotores";
-  const concs_ubication = "Av. La Plata 1844 Quilmes";
+  const concs_name = "Puerto Madero Automóviles";
+  const concs_ubication = "Olga Cossettini 1631 piso 1 departamento 103, Puerto Madero";
 
   /* change */
 
@@ -30,301 +30,39 @@ export default function CarDealerLanding() {
 [
   {
     "type" :"car",
-    "name": "Peugeot Partner 1.4 Furgon Confort",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_845776-MLA110320555017_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1744043813-peugeot-partner-14-furgon-confort-_JM#polycard_client=search-desktop&search_layout=grid&position=1&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
+    "name": "2021 Mercedes Benz Clase A 250 AMG",
+    "img": "https://assets.motordil.com/compressed/68f27afd14aa17dcca43d4b1/c715beb4-04d0-4a2f-9dc3-a1d4f81a7895",
+    "link": "https://www.motordil.com/listing/mercedes-benz-clase-a-250-amg-2021-bbhxji"
   },
   {
     "type" :"pickup",
-    "name": "Shineray Srm M7 Van Pasajeros 9 Asientos",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_918244-MLA98779938249_112025-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2581217528-shineray-srm-m7-van-9-pasajeros-_JM#polycard_client=search-desktop&search_layout=grid&position=2&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
+    "name": "2010 Toyota SW4 Hilux 3.0 TDI",
+    "img": "https://assets.motordil.com/compressed/68f2799a14aa17dcca43d4aa/f58e1a0f-5594-4cfb-aa4c-1c5859815949",
+    "link": "https://www.motordil.com/listing/toyota-sw4-hilux-3-0-tdi-2010-wfgvjm"
   },
   {
-    "type" :"pickup",
-    "name": "Shineray Swm M7",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_638535-MLA98886570875_112025-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2529778074-shineray-swm-m7-furgon-20-_JM#polycard_client=search-desktop&search_layout=grid&position=3&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
+    "type" :"car",
+    "name": "2013 Mercedes Benz Clase C C 250 Coupe Sport",
+    "img": "https://assets.motordil.com/compressed/68cafe584528ecd33a4decbe/ea22213c-cdb5-400e-926b-af685129c06d",
+    "link": "https://www.motordil.com/listing/68cafe584528ecd33a4decbe"
   },
   {
      "type" :"car",
-    "name": "Baic Bj30 1.5t Bj30 2wd Hybrid",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_625012-MLA108653042237_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3044491770-baic-bj30-15t-bj30-2wd-hybrid-_JM#polycard_client=search-desktop&search_layout=grid&position=4&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
+    "name": "2012 Fiat 500 1.4 SPORT",
+    "img": "https://assets.motordil.com/compressed/68cafe584528ecd33a4decbe/ea22213c-cdb5-400e-926b-af685129c06d",
+    "link": "https://www.motordil.com/listing/fiat-500-1-4-sport-2012-xlakaw"
   },
   {
       "type" :"car",
-    "name": "Toyota Rav4 Hibrid 2.5 Hv Limited 4x2 At",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_617271-MLA109095801486_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3051168468-toyota-rav4-hibrid-25-hv-limited-4x2-at-_JM#polycard_client=search-desktop&search_layout=grid&position=5&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
+    "name": "2012 Volkswagen Suran I Motion 1.6 Trendline",
+    "img": "https://assets.motordil.com/compressed/68f2790493f4675b381cb321/66dfeee4-5c4b-497c-bf8f-d37145b90f0f",
+    "link": "https://www.motordil.com/listing/volkswagen-suran-i-motion-1-6-trendline-2012-klzxaz"
   },
   {
     "type" :"pickup",
-    "name": "Jmc Grand Avenue 2.3 Gtdi Dadao Pro 4x4 At",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_889764-MLA87214464829_072025-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1508320751-jmc-grand-avenue-23-gtdi-dadao-pro-4x4-at-_JM#polycard_client=search-desktop&search_layout=grid&position=6&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Renault Sandero Stepway 1.6 Dynamique 105cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_960381-MLA107817640319_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2911920080-renault-sandero-stepway-16-dynamique-105cv-_JM#polycard_client=search-desktop&search_layout=grid&position=7&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Fiat Fiorino 1.4 Fire Evo Confort 87cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_667730-MLA108366421910_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3082834120-fiat-fiorino-14-fire-evo-confort-87cv-_JM#polycard_client=search-desktop&search_layout=grid&position=8&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Chevrolet Tracker 1.8 Ltz 140cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_761818-MLA106594489170_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2847706008-chevrolet-tracker-18-ltz-140cv-_JM#polycard_client=search-desktop&search_layout=grid&position=9&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Ford Territory 1.8 Titanium At",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_678197-MLA108206692112_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1703750027-ford-territory-18-titanium-at-_JM#polycard_client=search-desktop&search_layout=grid&position=10&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Shineray T30 1.6 Pick Up Cs",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_809465-MLA85725759626_062025-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2113648438-shineray-t30-16-pick-up-cs-_JM#polycard_client=search-desktop&search_layout=grid&position=11&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Ford Kuga 1.6 Titanium At Awd T 180cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_967413-MLA107864405697_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2922652120-ford-kuga-16-titanium-at-awd-t-180cv-_JM#polycard_client=search-desktop&search_layout=grid&position=12&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Peugeot 208 1.6 Allure Tiptronic",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_784575-MLA110220218645_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1740728377-peugeot-208-16-allure-tiptronic-_JM#polycard_client=search-desktop&search_layout=grid&position=13&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Ford Focus Iii 1.6 S",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_997156-MLA108016975630_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1699703827-ford-focus-iii-16-s-_JM#polycard_client=search-desktop&search_layout=grid&position=14&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Mg Zs Hybrid+ 1.5 Hev Comfort At",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_823930-MLA108238889794_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1711440021-mg-zs-hybrid-15-hev-comfort-at-_JM#polycard_client=search-desktop&search_layout=grid&position=15&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Peugeot 208 1.6 Gt Thp",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_909617-MLA107815356535_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1651425919-peugeot-208-16-gt-thp-_JM#polycard_client=search-desktop&search_layout=grid&position=16&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Fiat Fiorino 1.4",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_635125-MLA109556749304_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1737989275-fiat-fiorino-14-_JM#polycard_client=search-desktop&search_layout=grid&position=17&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Fiat Argo 1.8 Hgt",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_793671-MLA108107497372_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2847719948-fiat-argo-18-hgt-_JM#polycard_client=search-desktop&search_layout=grid&position=18&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Citroën Berlingo Furgon 1.6 Hdi 92 Bussines",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_686740-MLA107889597128_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3044244356-citron-berlingo-furgon-16-hdi-92-bussines-_JM#polycard_client=search-desktop&search_layout=grid&position=19&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Ford Ranger 3.2 Cd 4x4 Xlt Tdci 200cv At",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_913857-MLA110320263039_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1744084259-ford-ranger-32-cd-4x4-xlt-tdci-200cv-at-_JM#polycard_client=search-desktop&search_layout=grid&position=20&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Ford Fiesta 1.6 S",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_880227-MLA110128560903_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1738009039-ford-fiesta-16-s-_JM#polycard_client=search-desktop&search_layout=grid&position=21&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Renault Duster 2.0 Ph2 4x2 Privilege",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_889751-MLA109048356166_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3127845136-renault-duster-20-ph2-4x2-privilege-_JM#polycard_client=search-desktop&search_layout=grid&position=22&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Renault Duster 2.0 4x4 Privilege 143cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_721605-MLA108807944990_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1723844595-renault-duster-20-ph2-4x4-privilege-_JM#polycard_client=search-desktop&search_layout=grid&position=23&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Citroën C3 1.6 Feel Pk At 6",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_832013-MLA109555611902_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1738021755-citron-c3-16-feel-pk-at6-_JM#polycard_client=search-desktop&search_layout=grid&position=24&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Toyota Yaris 1.6 Gr",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_714015-MLA109276465371_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1699517445-toyota-yaris-16-gr-_JM#polycard_client=search-desktop&search_layout=grid&position=25&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Peugeot 2008 1.6 Thp Sport",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_917710-MLA109172113619_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3060080692-peugeot-2008-16-thp-sport-_JM#polycard_client=search-desktop&search_layout=grid&position=26&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Audi A1 Sportback 1.4 Tfsi Stronic 125cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_895135-MLA109377471429_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3069603744-audi-a1-sportback-14-tfsi-stronic-125cv-_JM#polycard_client=search-desktop&search_layout=grid&position=27&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Ford Fiesta 1.6 Titanium Mt",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_934462-MLA109554452700_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1737958589-ford-fiesta-16-titanium-mt-_JM#polycard_client=search-desktop&search_layout=grid&position=28&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Volkswagen Nivus 1.0 Tsi Tiptronic Highline",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_903517-MLA106783986186_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1679614225-volkswagen-nivus-10-tsi-tiptronic-highline-_JM#polycard_client=search-desktop&search_layout=grid&position=29&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Shineray T30 1.6 Pick Up Ch Cs Duales",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_743327-MLA107724429953_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1501537981-shineray-t30-16-pick-up-ch-cs-duales-_JM#polycard_client=search-desktop&search_layout=grid&position=30&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    "name": "Renault Clio 1.2 Mio Confort Plus Abc",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_962036-MLA108991722709_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1703792059-renault-clio-12-mio-confort-plus-abc-_JM#polycard_client=search-desktop&search_layout=grid&position=31&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Jeep Wrangler 3.6 Unlimited Rubicon 4x4 At8",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_675814-MLA109124762922_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1722001251-jeep-wrangler-36-unlimited-rubicon-4x4-at8-_JM#polycard_client=search-desktop&search_layout=grid&position=32&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Ram Rampage 2.0 Rebel Gme At9 4x4",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_947115-MLA107638756440_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1692896287-ram-rampage-20-rebel-gme-at9-4x4-_JM#polycard_client=search-desktop&search_layout=grid&position=33&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Ford Ranger 2.2 Cd Xl Tdci 150cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_978262-MLA107271555371_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2852256952-ford-ranger-22-cd-xl-tdci-150cv-_JM#polycard_client=search-desktop&search_layout=grid&position=34&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Shineray T30 Box Refrigerado 1.6 Cadenero",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_671921-MLA107729714095_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1594146875-shineray-t30-box-refrigerado-16l-nafta-cadenero-_JM#polycard_client=search-desktop&search_layout=grid&position=35&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Ford Maverick 2.0 Ecoboost Cd Lariat At8 4wd",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_735715-MLA107814482291_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1650201281-ford-maverick-20-ecoboost-cd-lariat-at8-4wd-_JM#polycard_client=search-desktop&search_layout=grid&position=36&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Toyota 4runner 4.7 V8 Limited Sport",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_861157-MLA110237282697_042026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3169415088-toyota-4runner-47-v8-limited-sport-_JM#polycard_client=search-desktop&search_layout=grid&position=37&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-    "name": "Ford Ranger 3.2 Cd Limited Tdci 200cv Automática",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_961585-MLA107201870940_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2922689930-ford-ranger-32-cd-limited-tdci-200cv-automatica-_JM#polycard_client=search-desktop&search_layout=grid&position=38&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-
-    "name": "Ford Ranger Raptor 2.0l Biturbo Cabina Doble 4x4",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_968805-MLA105099645009_012026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1647168129-ford-ranger-raptor-20l-biturbo-cabina-doble-4x4-_JM#polycard_client=search-desktop&search_layout=grid&position=39&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-
-    "name": "Fiat Cronos 1.3 Drive Mt",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_677120-MLA107119864562_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1650449475-fiat-cronos-13-drive-mt-_JM#polycard_client=search-desktop&search_layout=grid&position=40&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-
-    "name": "Mini Cooper Countryman 1.6 S 184cv At All4",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_880358-MLA108956392579_032026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-3070986460-mini-cooper-countryman-16-s-184cv-at-all4-_JM#polycard_client=search-desktop&search_layout=grid&position=41&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-    
-    "name": "Fiat Punto 1.6 Sporting",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_855143-MLA107814501517_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1654281773-fiat-punto-16-sporting-_JM#polycard_client=search-desktop&search_layout=grid&position=42&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"pickup",
-
-    "name": "Land Rover Range Rover Sport 5.0 V8 S/c Hse",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_726222-MLA105758583137_012026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2806934258-land-rover-range-rover-sport-50-v8-sc-hse-_JM#polycard_client=search-desktop&search_layout=grid&position=43&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-
-    "name": "Volkswagen Vento 2.0 Tsi Gli 211cv App Connect + Nav",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_790839-MLA102301583945_122025-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1617734497-volkswagen-vento-20-tsi-gli-211cv-app-connect-nav-_JM#polycard_client=search-desktop&search_layout=grid&position=44&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-
-    "name": "Chevrolet Tracker 1.8 Premier Awd At",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_898599-MLA104865321739_012026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1645543157-chevrolet-tracker-18-premier-awd-at-_JM#polycard_client=search-desktop&search_layout=grid&position=45&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-
-    "name": "Toyota Etios 1.5 Xls",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_713633-MLA107166568690_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-2922626648-toyota-etios-15-xls-_JM#polycard_client=search-desktop&search_layout=grid&position=46&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-
-    "name": "Renault Captur 2.0 Intens Manual",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_893357-MLA106784133214_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1679367349-renault-captur-20-intens-manual-_JM#polycard_client=search-desktop&search_layout=grid&position=47&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
-  },
-  {
-     "type" :"car",
-
-    "name": "Renault Fluence 2.0 T Gt 190cv",
-    "img": "https://http2.mlstatic.com/D_Q_NP_2X_681790-MLA107037318077_022026-E.webp",
-    "link": "https://auto.mercadolibre.com.ar/MLA-1671677369-renault-fluence-20-t-gt-190cv-_JM#polycard_client=search-desktop&search_layout=grid&position=48&type=item&tracking_id=8a3b68c0-889a-40de-b573-ab2390a6edfa"
+    "name": "2020 Volkswagen Amarok Highline",
+    "img": "https://assets.motordil.com/compressed/68f2777314aa17dcca43d498/f262a4fc-63ea-4aa8-b43b-a540ca7280fd",
+    "link": "https://www.motordil.com/listing/volkswagen-amarok-highline-2020-tlqxuw"
   }];
 
   const [displayInventory,setDisplayInventory] = useState(false);
@@ -525,7 +263,7 @@ function InventoryButton({cars,displayInventory,showInventory,hideInventory}){
       </div>
     );}
     else{
-      if(cars.length > 6){
+      if(cars.length > 3){
         return(
         <div className="text-center mt-10">
           <button className="bg-gray-900 text-white px-6 py-3 rounded-xl shadow hover:bg-black transition" onClick={showInventory}>
@@ -611,7 +349,7 @@ function FilterButtons({handleFilteredCar,handleFilteredPickup,handleFilteredMot
         Pickups
       </button>
       <button className={`${base} ${filteredCars.motorcycle ? active : inactive}`} onClick={() => handleFilteredMotorcycle()}>
-        Motos
+        Suvs
       </button>
     </div>
 
